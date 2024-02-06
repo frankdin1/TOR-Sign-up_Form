@@ -21,3 +21,29 @@ img,
     font-size: 5px;
     color: aliceblue;
 }
+
+form {
+    display: flex;
+    /* height: 100px;
+    width: 44vw; */
+    font-size: 5px;
+    border: 1px blue solid;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#first_name,
+#email,
+#last_name,
+#phone_number,
+#password,
+#confirm_password {
+    font-size: 5px;
+    width: 15vw;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+}
