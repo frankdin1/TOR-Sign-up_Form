@@ -6,12 +6,18 @@
 }
 
 img,
-#left-half {
+#right-half {
     width: 50vw;
     height: 100%;
 }
 
 #overlay {
     position: relative;
-    top: -60px;
+    text-align: center;
+    top: -30px;
+}
+
+#img-text {
+    font-size: 5px;
+    color: aliceblue;
 }
