@@ -1,7 +1,7 @@
 #main {
     display: flex;
     border: 2px black solid;
-    height: auto;
+    height: 100%;
     margin: 0 auto;
 }
 
@@ -9,4 +9,8 @@ img,
 #left-half {
     width: 50vw;
     height: auto;
+}
+
+#image-div {
+    text-align: center;
 }
