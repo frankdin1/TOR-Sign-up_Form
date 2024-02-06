@@ -1,0 +1,12 @@
+#main {
+    display: flex;
+    border: 2px black solid;
+    height: auto;
+    margin: 0 auto;
+}
+
+img,
+#left-half {
+    width: 50vw;
+    height: auto;
+}
