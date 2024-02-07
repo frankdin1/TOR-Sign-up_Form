@@ -32,12 +32,18 @@ img {
 
 form {
     display: flex;
-    /* height: 100px;
-    width: 44vw; */
+    padding-top: 15px;
     font-size: 5px;
     border: 1px blue solid;
     flex-wrap: wrap;
     justify-content: flex-start;
+}
+
+#motivation {
+    position: absolute;
+    top: 10px;
+    right: 137px;
+    /* bottom: 15px; */
 }
 
 #first_name,
