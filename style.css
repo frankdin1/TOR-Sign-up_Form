@@ -1,8 +1,12 @@
 :root {
-    --main-width: 280px;
+    --main-width: 330px;
 }
 
-#main {
+/* body {
+    background-color: black;
+} */
+
+body {
     display: flex;
     /* border: 2px black solid; */
     height: 100%;
@@ -33,20 +37,21 @@ img {
 
 form {
     display: flex;
-    padding-top: 15px;
-    /* font-size: 5px; */
-    /* border-bottom: 1px solid; */
+    padding-top: 5px;
+    flex-direction: column;
     box-shadow: 0px 1px 2px 0px gray;
+
+}
+
+#inputs {
+    display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
 
 #motivation {
-    position: absolute;
-    top: 1px;
-    right: 140px;
-    margin-top: 3px;
     font-size: 5px;
+    padding-left: 10px;
 }
 
 #first_name,
