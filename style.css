@@ -12,8 +12,11 @@
 
 img,
 #right-half {
-    width: 50vw;
     height: 100%;
+}
+
+img {
+    width: calc(var(--main-width) / 3);
 }
 
 #overlay {
