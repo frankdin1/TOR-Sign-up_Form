@@ -1,5 +1,5 @@
 :root {
-    --main-width: 300px;
+    --main-width: 280px;
 }
 
 #main {
@@ -37,7 +37,7 @@ form {
     font-size: 5px;
     border: 1px blue solid;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 #first_name,
@@ -53,5 +53,13 @@ form {
 .input {
     display: flex;
     flex-direction: column;
-    margin: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.text-box {
+    height: 4px;
+    border: 0.5px solid gray;
+    border-radius: 1px;
 }
