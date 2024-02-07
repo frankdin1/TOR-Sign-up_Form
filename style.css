@@ -1,18 +1,24 @@
 :root {
-    --main-width: 330px;
+    --body-width: 330px;
 }
 
-/* body {
-    background-color: black;
-} */
 
 body {
     display: flex;
     /* border: 2px black solid; */
     height: 100%;
     margin: 0 auto;
-    margin-top: -8px;
-    width: var(--main-width);
+    /* margin-top: -8px; */
+    width: var(--body-width);
+}
+
+#service-msg p {}
+
+#service-msg {
+    margin-left: 10px;
+    font-size: 5px;
+    padding: 20px;
+    padding-left: 0px;
 }
 
 img,
@@ -21,7 +27,7 @@ img,
 }
 
 img {
-    width: calc(var(--main-width) / 3);
+    width: calc(var(--body-width) / 3);
 }
 
 #overlay {
