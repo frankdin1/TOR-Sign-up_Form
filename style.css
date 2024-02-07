@@ -12,13 +12,11 @@ body {
     width: var(--body-width);
 }
 
-#service-msg p {}
-
 #service-msg {
-    margin-left: 10px;
     font-size: 5px;
     padding: 20px;
-    padding-left: 0px;
+    padding-left: 10px;
+    background-color: rgba(192, 192, 192, 0.13);
 }
 
 img,
