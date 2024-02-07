@@ -5,11 +5,12 @@
 
 body {
     display: flex;
-    /* border: 2px black solid; */
     height: 100%;
     margin: 0 auto;
-    /* margin-top: -8px; */
     width: var(--body-width);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 5px;
 }
 
 #service-msg {
@@ -74,6 +75,7 @@ form {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 5px;
+    padding-right: 4px;
 }
 
 input {
@@ -95,4 +97,29 @@ input:focus {
 label {
     text-transform: uppercase;
     font-size: 3px;
+}
+
+#create-account {
+    height: 14px;
+    padding: 5px 13px;
+    margin-top: 10px;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 5px;
+    background-color: green;
+    border: 1px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: antiquewhite;
+}
+
+#question {
+    margin-left: 10px;
+}
+
+#login {
+    color: green;
 }
