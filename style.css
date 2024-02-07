@@ -1,8 +1,13 @@
+:root {
+    --main-width: 300px;
+}
+
 #main {
     display: flex;
     border: 2px black solid;
     height: 100%;
     margin: 0 auto;
+    width: var(--main-width);
 }
 
 img,
