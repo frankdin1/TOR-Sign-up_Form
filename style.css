@@ -66,8 +66,18 @@ form {
     margin-bottom: 5px;
 }
 
-.text-box {
+input {
     height: 4px;
-    border: 0.5px solid gray;
+    border: 0.1px solid gray;
     border-radius: 1px;
+    padding: 2px;
+    outline: none;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:focus {
+    border-color: blue;
 }
