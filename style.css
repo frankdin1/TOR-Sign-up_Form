@@ -17,7 +17,14 @@ body {
     font-size: 5px;
     padding: 20px;
     padding-left: 10px;
+    padding-bottom: 10px;
     background-color: rgba(192, 192, 192, 0.13);
+    /* width: 160px;
+    width: calc(2 * var(--body-width) / 3); */
+}
+
+#service-msg p {
+    width: 160px;
 }
 
 img,
@@ -37,6 +44,10 @@ img {
 
 #img-text {
     font-size: 5px;
+    color: aliceblue;
+}
+
+a {
     color: aliceblue;
 }
 
@@ -80,7 +91,7 @@ form {
 
 input {
     height: 3px;
-    border: 0.1px solid rgba(192, 192, 192, 0.4);
+    border: 0.1px solid rgba(90, 91, 92, 0.4);
     border-radius: 1px;
     padding: 2px;
     outline: none;
@@ -108,7 +119,7 @@ label {
     align-items: center;
     display: flex;
     font-size: 5px;
-    background-color: green;
+    background-color: rgb(69, 71, 68);
     border: 1px;
     border-radius: 3px;
     font-weight: bold;
@@ -121,5 +132,9 @@ label {
 }
 
 #login {
-    color: green;
+    color: rgb(69, 71, 68);
+}
+
+#submit-div {
+    padding-bottom: 30px;
 }
