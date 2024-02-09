@@ -19,8 +19,6 @@ body {
     padding-left: 10px;
     padding-bottom: 10px;
     background-color: rgba(192, 192, 192, 0.13);
-    /* width: 160px;
-    width: calc(2 * var(--body-width) / 3); */
 }
 
 #service-msg p {
@@ -36,7 +34,21 @@ img {
     width: calc(var(--body-width) / 3);
 }
 
-#overlay {
+#image-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    width: calc(var(--body-width) / 3);
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 30px;
+    color: whitesmoke;
+}
+
+#text-overlay {
     position: relative;
     text-align: center;
     top: -30px;
